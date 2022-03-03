@@ -1,0 +1,115 @@
+
+
+/*Título "Altura" e "Calculadora - IMC" estão obedecendo ao main*/
+main {
+    display: flex;
+    width: 100vw;
+    height: 100vw;
+    justify-content:center;
+    align-items: center;
+    color: rgb(252, 252, 252);
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+/*Retângulo*/
+.container {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(80, 69, 94);
+    width: 400px;
+    height: 600px;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 15px;
+    box-shadow: 2px 2px 8px #000;
+
+}
+/*Calculadora -IMC*/
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    border-bottom: solid 2px rgb(236, 219, 245);
+    margin-bottom: 20px;
+    font-size: 25px;
+    padding-bottom: 15px;
+
+}
+
+/*Alinhamento dos itens de "input". Width e Height aqui condiz com o tamanho do espaço que eles ocupam*/
+.input {
+    display: flex;
+    width: 300px;
+    height: 40px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+/*Espaços em branco*/
+.input input {
+    width: 200px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    outline: 0;
+    text-align:  center;
+}
+
+/*Nome, Altura e Peso*/
+.input label {
+       color: rgb(252, 252, 252);
+}
+
+/*Botão "Calcular"*/
+button {
+    border-color: initial;
+    border-style: none;
+    box-shadow: rgba(10, 0, 10, 0.25) 2px 2px 5px inset;
+    color: rgb(47, 5, 53);
+    cursor: pointer;
+    display: inline-block;
+    font-family: Inter, sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 40px;
+    margin-left: -4px;
+    outline: 0;
+    text-align: center;
+    transition: all 0.3s cubic-bezier(.05, .03, .35, 1);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: bottom;
+    width: 120px;
+    height: 40px;
+    border-radius: 14px;
+
+}
+
+.button:hover {
+    background: rgb(47, 5, 53);
+    color: white;
+}
+
+
+
+.result {
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+    width: 360px;
+    height: 190px;
+    border-radius: 7px;
+    padding: 20px;
+    font: 1rem serif;
+    background-color: #fff;
+    color: rgb(47, 5, 53);
+    box-sizing:none;
+    user-select: none;
+    box-shadow: rgba(10, 0, 10, 0.25) 2px 2px 3px inset;
+    margin-bottom: none;
+}
